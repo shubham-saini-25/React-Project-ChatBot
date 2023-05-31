@@ -1,0 +1,41 @@
+.chatCard {
+    width: 40%;
+    margin-top: 7rem;
+}
+
+.chatCardBody {
+    background-color: rgb(203, 211, 220);
+    overflow-y: auto;
+    height: 35rem;
+}
+
+.inputMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    background-color: rgb(228, 143, 238);
+    border-radius: 20px;
+    text-align: start;
+    font-size: 25px;
+    line-height: 2;
+}
+
+@media (max-width: 700px) {
+    .chatCard {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .chatCardBody {
+        overflow-x: hidden;
+    }
+
+    .message {
+        text-align: start;
+        font-size: 20px;
+        margin-left: 23px;
+    }
+}
